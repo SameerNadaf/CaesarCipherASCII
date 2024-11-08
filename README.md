@@ -92,4 +92,4 @@ Decrypted text: Hello, World!
 
 Contributions are welcome! Feel free to submit issues or open pull requests to improve the code or documentation.
 
-Happy coding! 🎉
+# Happy coding! 🎉

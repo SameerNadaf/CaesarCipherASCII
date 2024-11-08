@@ -14,7 +14,7 @@ public class DecryptionRunner {
         System.out.print("Enter the Ciphertext : ");
         String cipherText = sc.nextLine();
         System.out.print("Enter the Key : ");
-        int key = sc.nextInt();
+        String key = sc.next();
         sc.close();
 
         decryption.decryptionAlgorithm(cipherText, key);

@@ -14,7 +14,7 @@ public class EncryptionRunner {
         System.out.print("Please enter message : ");
         String message = scanner.nextLine();
         System.out.print("Please enter key : ");
-        int key = scanner.nextInt();
+        String key = scanner.next();
         scanner.close();
 
         encryption.encryptionAlgorithm(message, key);
